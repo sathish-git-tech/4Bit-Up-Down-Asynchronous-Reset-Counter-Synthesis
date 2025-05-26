@@ -148,7 +148,7 @@ used.
 #### Area report:
 ![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20224457.png)
 #### Power Report:
-![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20215223.png)
+![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20225316.png)
 
 #### Timing Report: 
 ![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/WhatsApp%20Image%202025-05-26%20at%2022.03.30_6457d4bd.jpg)
