@@ -17,6 +17,66 @@ Synthesis requires three files as follows,
 ◦ Liberty Files (.lib)
 
 ◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
+```
+reg reset;
+reg up_down;
+reg enable;
+wire [3:0] count;
+
+
+up_down_counter uut(
+    .clk(clk),
+    .reset(reset),
+    .up_down(up_down),
+    .enable(enable),
+    .count(count)
+);
+
+
+initial begin
+    clk = 0;
+    forever #5 clk = ~clk;  
+end
+
+
+initial begin
+
+    reset = 1;
+    up_down = 1;
+    enable = 0;
+    
+
+    #20 reset = 0;
+    
+
+    #10 enable = 1;
+    #200;  
+    
+
+    up_down = 0;
+    #200;  
+    
+
+    enable = 0;
+    #50;
+    
+
+    reset = 1;
+    #20 reset = 0;
+    
+
+    #50;
+    
+
+    $finish;
+end
+
+
+initial begin
+    $monitor("Time: %t, Reset: %b, Up/Down: %b, Enable: %b, Count: %b", 
+             $time, reset, up_down, enable, count);
+end
+```
 
 ◦ SDC (Synopsis Design Constraint) File (.sdc)
 
