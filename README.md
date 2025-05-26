@@ -144,7 +144,7 @@ used.
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
 
 #### Synthesis RTL Schematic :
-
+![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20203609.png)
 #### Area report:
 ![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20224457.png)
 #### Power Report:
