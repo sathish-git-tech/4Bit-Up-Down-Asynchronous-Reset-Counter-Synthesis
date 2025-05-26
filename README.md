@@ -146,7 +146,7 @@ used.
 #### Synthesis RTL Schematic :
 
 #### Area report:
-![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20215204.png)
+![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20224457.png)
 #### Power Report:
 ![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20215223.png)
 
