@@ -77,6 +77,26 @@ initial begin
              $time, reset, up_down, enable, count);
 end
 ```
+### end module
+```
+always @(posedge clk or posedge reset) begin
+    if (reset) 
+    begin
+        count <= 4'b0000;
+    end
+
+    else if (enable)
+    begin
+        if (up_down)
+        begin
+            count <= count + 1'b1;
+        end
+        else begin
+            count <= count - 1'b1;
+        end
+    end
+end
+```
 
 ◦ SDC (Synopsis Design Constraint) File (.sdc)
 
