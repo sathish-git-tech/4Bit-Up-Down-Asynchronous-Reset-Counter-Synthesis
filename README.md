@@ -71,7 +71,7 @@ used.
 ![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/Screenshot%202025-05-26%20215223.png)
 
 #### Timing Report: 
-
+![image](https://github.com/sathish-git-tech/4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis/blob/main/WhatsApp%20Image%202025-05-26%20at%2022.03.30_6457d4bd.jpg)
 #### Result: 
 
 The generic netlist has been created, and area, power, and timing reports have been tabulated and generated using Genus.
